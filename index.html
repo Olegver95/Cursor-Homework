@@ -4,38 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <title> HW #1 "VCS (Git, Github, gh-pages, FTP</title>
 </head>
 <body>
     <div class="base">
         <h2 class="title_base">Basic git commands</h2>
         <div class="base_text">
-            <li>git config --global user.name blabla - встановлює ім'я користувача</li>
-            <li>git config --global user.email blabal@bla -встановлює електронну пошту користувача </li>
-            <li>git init - створює локальний репозиторій</li>
-            <li>git status - провірка стану локального репозиторія</li>
-            <li>git add - добавити файл в буфер</li>
-            <li>git .add - добавити усі файли в буфер</li>
-            <li>git commit -m "commit text" - коміт. відправляємо вміст буфера в репозиторій</li>
-            <li>git log - перегляд історії комітів</li>
-            <li>git checkout -- "filename" - взяти файл із репозиторія в робочу директорію</li>
-            <li>git branch [-r,-a]- покаже список бранчів (* - активний бранч) (-r покажи віддалені бранчі, -a покаже локaльні і віддалені бранчі)</li>
-            <li>git push -  відправляє внесені зміни на віддалений репозиторій</li>
-            <li>git pull - cтягує зміни з віддаленого репозиторія</li>
-            <li>git merge name_branch - зливання бранча із текучим бранчом (в якому ми зараз знаходимося)</li>
-            <li>git clone - клонування віддаленого репозиторія</li>
-            <h3 class="gitignore">.gitignore file - служить для зазначення в ньому файлів і папок, які необхідно приховати від системи контролю версій git</h3>
+            <li><span>config --global user.name blabla</span>  - встановлює ім'я користувача</li>
+            <li><span>config --global user.email blabal@bla</span>  -встановлює електронну пошту користувача </li>
+            <li><span>git init</span> - створює локальний репозиторій</li>
+            <li><span>git status</span>  - провірка стану локального репозиторія</li>
+            <li><span>git add</span> - добавити файл в буфер</li>
+            <li><span>git .add</span> - добавити усі файли в буфер</li>
+            <li><span>git commit -m "commit text"</span> - коміт. відправляємо вміст буфера в репозиторій</li>
+            <li><span>git log</span> - перегляд історії комітів</li>
+            <li><span>git checkout -- "filename"</span> - взяти файл із репозиторія в робочу директорію</li>
+            <li><span>git branch [-r,-a]</span>- покаже список бранчів (* - активний бранч) (-r покаже віддалені бранчі, -a покаже локальні і віддалені бранчі)</li>
+            <li><span>git push</span> -  відправляє внесені зміни на віддалений репозиторій</li>
+            <li><span>git pull</span> - стягує зміни з віддаленого репозиторія</li>
+            <li><span>git merge name_branch</span> - зливання бранча із текучим бранчом (в якому ми зараз знаходимося)</li>
+            <li><span>git clone</span> - клонування віддаленого репозиторія</li>
+            <h4 class="gitignore">.gitignore - служить для вказівки в ньому файлів і папок, які потрібно приховати від системи контролю версій Git</h4>
         </div>
     </div>
     <div class="advanced">
-        <h3 class="title_advanced">Advanced git commands</h3>
+        <h2 class="title_advanced">Advanced git commands</h2>
             <div class="text_advanced">
-                <li>git revert "hash" - відміняє коміт (виконує повну протилежність, те що було знищено вертає, те що було добавлено знищує)</li>
-                <li>git reset -видаляє всі зміни </li>
-                <li>git rebase - дає можливість перенести зміни з однієї гілки в іншу</li>
-                <li>git cherry-pick -  використовується для перенесення комітів з одної гілки на іншу</li>
-                <li>git stash - призначена для того, щоб помістити поточні зміни, які ви виконали в файлах, в окреме сховище, і повернути файли до вихідного стану</li>
+                <li><span>git revert "hash"</span> - відміняє коміт (виконує повну протилежність, те що було знищено вертає, те що було добавлено знищує)</li>
+                <li><span>git reset</span> -видаляє всі зміни </li>
+                <li><span>git rebase</span> - дає можливість перенести зміни з однієї гілки в іншу</li>
+                <li><span>git cherry-pick</span> -  використовується для перенесення комітів з одної гілки на іншу</li>
+                <li><span>git stash</span> - призначена для того, щоб помістити поточні зміни, які ви виконали в файлах, в окреме сховище, і повернути файли до вихідного стану</li>
         </div>
     </div>
 
