@@ -16,11 +16,11 @@
             <li><span>git init</span> - створює локальний репозиторій</li>
             <li><span>git status</span>  - провірка стану локального репозиторія</li>
             <li><span>git add</span> - добавити файл в буфер</li>
-            <li><span>git .add</span> - добавити усі файли в буфер</li>
+            <li><span>git add.</span> - додати до відслідковування змін</li>
             <li><span>git commit -m "commit text"</span> - коміт. відправляємо вміст буфера в репозиторій</li>
             <li><span>git log</span> - перегляд історії комітів</li>
-            <li><span>git checkout -- "filename"</span> - взяти файл із репозиторія в робочу директорію</li>
-            <li><span>git branch [-r,-a]</span>- покаже список бранчів (* - активний бранч) (-r покаже віддалені бранчі, -a покаже локальні і віддалені бранчі)</li>
+            <li><span>git checkout </span> - дозволяє пересуватись між комітами та гілками</li>
+            <li><span>git branch </span>- створює, редагує, видаляє гілки</li>
             <li><span>git push</span> -  відправляє внесені зміни на віддалений репозиторій</li>
             <li><span>git pull</span> - стягує зміни з віддаленого репозиторія</li>
             <li><span>git merge name_branch</span> - зливання бранча із текучим бранчом (в якому ми зараз знаходимося)</li>
@@ -32,8 +32,8 @@
         <h2 class="title_advanced">Advanced git commands</h2>
             <div class="text_advanced">
                 <li><span>git revert "hash"</span> - відміняє коміт (виконує повну протилежність, те що було знищено вертає, те що було добавлено знищує)</li>
-                <li><span>git reset</span> -видаляє всі зміни </li>
-                <li><span>git rebase</span> - дає можливість перенести зміни з однієї гілки в іншу</li>
+                <li><span>git reset</span> - обираємо коміт і всі коміти після нього будуть видалені </li>
+                <li><span>git rebase</span> - склеювання комітів з їх перезаписом</li>
                 <li><span>git cherry-pick</span> -  використовується для перенесення комітів з одної гілки на іншу</li>
                 <li><span>git stash</span> - призначена для того, щоб помістити поточні зміни, які ви виконали в файлах, в окреме сховище, і повернути файли до вихідного стану</li>
         </div>
