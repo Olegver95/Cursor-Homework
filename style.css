@@ -1,0 +1,41 @@
+* {
+    font-family: 'Courgette', cursive;
+}
+.base {
+    font-size: 17px;
+    color: rgb(112, 75, 75);
+}
+.advanced {
+    font-size: 17px;
+    color: rgb(112, 75, 75);
+}
+
+.title_base {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    }
+
+.title_advanced {
+    margin: auto;
+    width: 100%;
+    text-align: center;    
+}
+.base_text {
+    padding: 20px;
+}
+
+.text_advanced {
+    padding: 20px;
+}
+
+.base_text li span {
+    font-size: 24px;
+    font-weight: 800;
+    font-size: x-large;
+}
+.text_advanced li span {
+    font-size: 24px;
+    font-weight: 800;
+    font-size: x-large;
+}
