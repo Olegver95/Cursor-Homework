@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>HW 2: HTML</title>
 </head>
 <body>
-    
+    <h1>Homework 2</h1>
+    <table class="comicGreen">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Last name</th>
+                <th>Telephone number</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+            <tbody>
+                <tr>
+                    <td>Cristiano</td>
+                    <td>Ronaldo</td>
+                    <td>+482244123</td>
+                    <td>cr7@gmail.com</td>
+                </tr>
+        <tr>
+            <td>Lionel</td>
+            <td>Messi</td>
+            <td>+568799124</td>
+            <td>LM@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Luka</td>
+            <td>Modrić</td>
+            <td>+784589545</td>
+            <td>LucaM@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Edinson</td>
+            <td>Cavani</td>
+            <td>+89672244</td>
+            <td>Edinson@gmail.com</td>
+        </tr>
+        </tbody>
+        </table>
+        <h2>Enter your details</h2>
+        <form>
+            <input type="text" placeholder="Enter your name">
+        <p>
+            <input type="text" placeholder="Enter your last name" />
+        </p>  
+    <h2>Select your gender</h2>
+    <p>
+        <label><input checked type="radio" name="sex" /> Male</label>
+     </p>
+     <p>
+        <label><input type="radio" name="sex" /> Female</label>
+     </p>
+<textarea rows="8" cols="25" placeholder="Write your question"></textarea>
+  <p>
+           <select>
+                <option disabled selected select>Choose your city</option>
+                <option>Braga</option>
+                <option>Rio de janeiro</option>
+                <option>Zadar</option>
+                <option>Montevideo</option>
+                </select>
+  </p>			  
+<h2>Choose language:</h2>
+   <p>
+        <label><input type="checkbox">Português</input></label>
+   </p> 
+   <p>
+        <label><input type="checkbox">Spanish</input></label>
+   </p>
+   <p>
+        <label><input type="checkbox">Croatian</input></label>
+   </p>
+</p>
+        <button type="sumbit">Send</button>
+</form>
 </body>
-</html>   
+</html>
