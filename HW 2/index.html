@@ -59,26 +59,28 @@
      </p>
 <textarea rows="8" cols="25" placeholder="Write your question"></textarea>
   <p>
-           <select>
-                <option disabled selected select>Choose your city</option>
+    <select id="cities" name="cities">
+           <option selected disabled>Choose your city</option>
                 <option>Braga</option>
                 <option>Rio de janeiro</option>
                 <option>Zadar</option>
                 <option>Montevideo</option>
-                </select>
+    </select>
   </p>			  
-<h2>Choose language:</h2>
-   <p>
-        <label><input type="checkbox">Português</input></label>
-   </p> 
-   <p>
-        <label><input type="checkbox">Spanish</input></label>
-   </p>
-   <p>
-        <label><input type="checkbox">Croatian</input></label>
-   </p>
-</p>
-        <button type="sumbit">Send</button>
+<p>Choose language:</p>
+<div>
+    <label for="uk">
+      <input type="checkbox" id="pr">
+      Português
+    </label>
+    <label for="sp">
+      <input type="checkbox" id="ru">
+      Spanish</label>
+    <label for="en">
+      <input type="checkbox" id="cr">
+      Croatian</label>
+  </div>
+        <button>Send</button>
 </form>
 </body>
 </html>
