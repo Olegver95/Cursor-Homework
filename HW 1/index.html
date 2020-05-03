@@ -4,40 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <title> HW #1 "VCS (Git, Github, gh-pages, FTP</title>
+    <title>HW 2: HTML</title>
 </head>
 <body>
-    <div class="base">
-        <h2 class="title_base">Basic git commands</h2>
-        <div class="base_text">
-            <li><span>config --global user.name blabla</span>  - встановлює ім'я користувача</li>
-            <li><span>config --global user.email blabal@bla</span>  -встановлює електронну пошту користувача </li>
-            <li><span>git init</span> - створює локальний репозиторій</li>
-            <li><span>git status</span>  - провірка стану локального репозиторія</li>
-            <li><span>git add</span> - добавити файл в буфер</li>
-            <li><span>git add .</span> - додати до відслідковування змін</li>
-            <li><span>git commit -m "commit text"</span> - він зберігає зміни в файлах, що ми відслідковували в команді git add</li>
-            <li><span>git log</span> - перегляд історії комітів</li>
-            <li><span>git checkout </span> - дозволяє пересуватись між комітами та гілками</li>
-            <li><span>git branch </span>- створює, редагує, видаляє гілки</li>
-            <li><span>git push</span> -  відправляє внесені зміни на віддалений репозиторій</li>
-            <li><span>git pull</span> - стягує зміни з віддаленого репозиторія</li>
-            <li><span>git merge name_branch</span> - зливання бранча із текучим бранчом (в якому ми зараз знаходимося)</li>
-            <li><span>git clone</span> - клонування віддаленого репозиторія</li>
-            <h4 class="gitignore">.gitignore - служить для вказівки в ньому файлів і папок, які потрібно приховати від системи контролю версій Git</h4>
-        </div>
-    </div>
-    <div class="advanced">
-        <h2 class="title_advanced">Advanced git commands</h2>
-            <div class="text_advanced">
-                <li><span>git revert "hash"</span> - відміняє коміт (виконує повну протилежність, те що було знищено вертає, те що було добавлено знищує)</li>
-                <li><span>git reset</span> - обираємо коміт і всі коміти після нього будуть видалені </li>
-                <li><span>git rebase</span> - склеювання комітів з їх перезаписом</li>
-                <li><span>git cherry-pick</span> -  використовується для перенесення комітів з одної гілки на іншу</li>
-                <li><span>git stash</span> - призначена для того, щоб помістити поточні зміни, які ви виконали в файлах, в окреме сховище, і повернути файли до вихідного стану</li>
-        </div>
-    </div>
-
+    <h1>Homework 2</h1>
+    <table class="comicGreen">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Last name</th>
+                <th>Telephone number</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+            <tbody>
+                <tr>
+                    <td>Cristiano</td>
+                    <td>Ronaldo</td>
+                    <td>+482244123</td>
+                    <td>cr7@gmail.com</td>
+                </tr>
+        <tr>
+            <td>Lionel</td>
+            <td>Messi</td>
+            <td>+568799124</td>
+            <td>LM@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Luka</td>
+            <td>Modrić</td>
+            <td>+784589545</td>
+            <td>LucaM@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Edinson</td>
+            <td>Cavani</td>
+            <td>+89672242</td>
+            <td>Edinson@gmail.com</td>
+        </tr>
+        </tbody>
+        </table>
+        <h2>Enter your details</h2>
+        <form>
+            <input type="text" placeholder="Enter your name">
+        <p>
+            <input type="text" placeholder="Enter your last name" />
+        </p>  
+    <h2>Select your gender</h2>
+    <p>
+        <label><input checked type="radio" name="sex" /> Male</label>
+     </p>
+     <p>
+        <label><input type="radio" name="sex" /> Female</label>
+     </p>
+<textarea rows="8" cols="25" placeholder="Write your question"></textarea>
+  <p>
+    <select id="cities" name="cities">
+           <option selected disabled>Choose your city</option>
+                <option>Braga</option>
+                <option>Rio de janeiro</option>
+                <option>Zadar</option>
+                <option>Montevideo</option>
+    </select>
+  </p>			  
+<p>Choose language:</p>
+<div>
+    <label for="uk">
+      <input type="checkbox" id="pr">
+      Português
+    </label>
+    <label for="sp">
+      <input type="checkbox" id="ru">
+      Spanish</label>
+    <label for="en">
+      <input type="checkbox" id="cr">
+      Croatian</label>
+  </div>
+        <button>Send</button>
+</form>
 </body>
 </html>
