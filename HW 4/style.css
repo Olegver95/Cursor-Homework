@@ -1,0 +1,31 @@
+body{
+font-family: 'Lato', sans-serif;
+background-image: url(./img/bg.png);
+position: absolute;
+width: 1440px;
+height: 782px;
+left: 0px;
+top: 0px;
+}
+.navbar{
+position: absolute;
+width: 1440px;
+height: 100px;
+left: 0px;
+top: 17px;
+}
+.cloud{
+position: absolute;
+left: 5%;
+right: 10%;
+top: 20%;
+bottom: 20%;
+}
+.cloudbudget{
+position: absolute;
+width: 172px;
+height: 29px;
+left: 165px;
+top: 55px;
+
+}
