@@ -1,0 +1,47 @@
+body{
+    font-family: 'Lato', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+header{
+    display: flex;
+    min-height: 500px;
+    background-color: #ED4C5C;
+    align-items: center;
+}
+a{ 
+    text-decoration:none; 
+}
+.download_section{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.left_text{
+    display: flex;
+    flex-direction: column;
+}
+.left_text>h1{
+    max-width: 445px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: 40px;
+    }
+.left_text>p{
+    max-width: 445px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    margin-top: 24px;
+    }
+.app_download{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 134px;
+    margin-top: 40px;
+}
